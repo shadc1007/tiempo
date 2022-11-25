@@ -84,7 +84,7 @@ section.hero {
 section.hero .down {
   stroke: white;
   position: absolute;
-  bottom: 5.5em;
+  bottom: 8.5em;
   width: 1em;
   animation: moveArrow 1s alternate-reverse infinite;
 }
@@ -159,19 +159,31 @@ h1 {
   .hero-img {
     left: unset;
     right: 0;
-    width: 100%;
-    height: 100vh;
+    width: 50%;
+    height: 43em;
   }
   .logo {
-    color: white;
+    color: black;
   }
   .logo span {
-    color: white;
+    color: black;
   }
   section.hero {
     color: white;
     width: 40%;
     margin-bottom: 1em;
+  }
+  section.hero h1 {
+    color: black;
+  }
+  section.hero .subhead {
+    color: black;
+  }
+  section.hero svg.down {
+    stroke: black;
+  }
+  section.hero svg.down path {
+    fill: black;
   }
   .feature {
     display: grid;
